@@ -1,7 +1,7 @@
 'use strict';
 const electron = require('electron');
-const isAccelerator = require('electron-is-accelerator');		  const isAccelerator = require('electron-is-accelerator');
-const _debug = require('debug');		  const _debug = require('debug');
+const isAccelerator = require('electron-is-accelerator');
+const _debug = require('debug');
 		  
 const {globalShortcut, BrowserWindow, app} = electron.remote || electron;
 
